@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>HTML | JAVASCRIPT</h1>
+        <form onsubmit="return validarFormulario()">
+
+            <input type="number" id="numeroA" name="numeroA" required placeholder="Digite o número A"><br>
+            <input type="number" id="numeroB" name="numeroB" required placeholder="Digite o número B"><br>
+
+            <button type="submit" value="Verificar">Enviar</button>
+        </form>
+    </div>
+
+    <div class="message">
+        <p class="sucess-message" id="sucess">O número B é maior que o número A. Parabéns você conseguiu</p>
+        <p class="error-message" id="error">O número A é maior que o número B. Tente Novamente</p>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

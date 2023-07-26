@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 300px auto;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    max-width: max-content;
+    padding: 40px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 20px 4px #000;
+}
+
+h1 {
+    margin-bottom: -10px;
+    font-family: 'Bungee', cursive;
+    font-style: normal;
+}
+
+form,
+input,
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 13px;
+    width: 300px;
+    margin-bottom: 8px;
+    outline: none;
+}
+
+button {
+    border: none;
+    padding: 13px;
+    cursor: pointer;
+    background-color: #dfdfdf;
+    border-radius: 3px;
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    transition: 0.8s ease-in-out;
+}
+
+button:hover {
+    background-color: rgb(164, 164, 164);
+}
+
+.sucess-message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    background-color: green;
+    max-width: max-content;
+    margin: -250px auto;
+    padding: 20px;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 2px 2px 20px 4px #000;
+    display: none;
+}
+
+.error-message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -200px;
+    background-color: red;
+    max-width: max-content;
+    margin: -251px auto;
+    padding: 20px;
+    width: 400px;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 2px 2px 20px 4px #000;
+    display: none;
+}
